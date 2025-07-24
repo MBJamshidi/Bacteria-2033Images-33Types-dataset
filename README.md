@@ -57,3 +57,6 @@ Jamshidi, Mohammad Behdad, Saleh Sargolzaei, Salimeh Foorginezhad, and Omid Mozt
   year={2023},
   publisher={Elsevier}
 }
+
+
+#BiotechDataset #OpenDataset #CNN #DeepLearning #MachineLearning #ComputerVision #ImageClassification #BiomedicalAI #Microbiology #BacterialImaging #Bioinformatics #BioAI #MedicalImaging #AIinBiotech #GramStainAI #DigitalTwins #MedicalAI #AIHealthcare #FederatedLearning #NeuralNetworks #OpenScience #ScientificData #SmartHealthcare #BacteriaClassification #ResearchDataset #ArtificialIntelligence #BiomedicalDataset #HealthcareAI #DeepNeuralNetworks #BiomedicalResearch #VisionAI #HealthTech #Biomedicine #LabData #MicroscopyAI #AIinMicrobiology #MLDataset #BioImageAnalysis #BiomedicalVision #BiomedicalImages #AIinDiagnostics #MicroscopeAI #ScientificImaging #ComputerAidedDiagnosis #MedTechAI #DataForGood #BiotechInnovation #BacteriaDetection #AIinResearch #ImageRecognition #OpenAccessAI
