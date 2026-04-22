@@ -1,0 +1,44 @@
+# Default training configuration for the Bacteria-2033 dataset
+# Override any value via CLI arguments in scripts/train_pytorch.py
+
+data:
+  root: "data/bacteria"
+  image_size: 224
+  test_size: 0.15
+  val_size: 0.15
+  random_state: 42
+
+model:
+  architecture: "efficientnet_b3"   # See SUPPORTED_ARCHITECTURES in models.py
+  pretrained: true
+  dropout_rate: 0.3
+  freeze_backbone: false
+
+training:
+  epochs: 50
+  batch_size: 32
+  num_workers: 4
+  pin_memory: true
+
+  optimizer:
+    name: "adamw"
+    lr: 3.0e-4
+    weight_decay: 1.0e-4
+
+  scheduler:
+    name: "cosine"
+    eta_min: 1.0e-6
+
+  loss:
+    label_smoothing: 0.1
+
+  mixed_precision: true
+  gradient_clip_norm: 1.0
+
+  # Fine-tuning strategy: train head first, then unfreeze backbone
+  warmup_epochs: 5          # Head-only training before unfreezing
+
+output:
+  dir: "runs/exp1"
+  save_best: true
+  save_last: true

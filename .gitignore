@@ -1,0 +1,62 @@
+# ---- Data & large files ----
+data/
+*.zip
+*.tar.gz
+*.h5
+*.hdf5
+
+# ---- Model checkpoints ----
+runs/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.installed.cfg
+*.egg
+MANIFEST
+.env
+.venv
+env/
+venv/
+ENV/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.ipynb~
+
+# ---- Testing & coverage ----
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# ---- IDEs ----
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ---- Logs & outputs ----
+*.log
+wandb/
+lightning_logs/
+mlruns/
+
+# ---- Generated assets (regenerate with scripts/visualize_dataset.py) ----
+assets/class_distribution.png
+assets/sample_grid.png
